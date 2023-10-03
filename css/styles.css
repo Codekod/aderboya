@@ -93,3 +93,40 @@ ul {
     letter-spacing: 2.4rem;
     padding-bottom: 2rem;
 }
+.arrows {
+    margin-left: 50%;
+    padding-top: 4rem;
+}
+.arrows span {
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    border-bottom: 1px solid var(--light-color);
+    border-right: 1px solid var(--light-color);
+    transform: rotate(45deg);
+    margin: -1rem;
+    animation: arrows-animate 2s infinite;
+
+}
+.arrows span:nth-child(2) {
+    animation-delay: 0.3s;
+}
+.arrows span:nth-child(3) {
+    animation-delay: 0.6s;
+}
+@keyframes arrows-animate {
+    0% {
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px, -20px));
+    }
+    50% {
+    opacity: 1;
+
+
+}
+        100% {
+            opacity: 0;
+            transform: rotate(45deg) translate(20px, 20px));
+        }
+    
+}
