@@ -1,4 +1,18 @@
-img {
-    width: 150px;
-    height: 90px;
+/** Fonts **/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&family=Raleway:wght@100;300;400&display=swap');
+
+/** General Settings **/
+
+:root {
+    --primary-font: font-family: 'Raleway', sans-serif;
+    --secondary-font: font-family: 'Poppins', sans-serif;
+    --primary-color: #E55604;
+    --light-color: #efefef;
+    --dark-color: #3c3c3c;
+}
+html {
+    font-size: 10px;
+    color: var(--dark-color);
+    font-family: var(--primary-font);
 }
