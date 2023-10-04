@@ -1,6 +1,6 @@
 /** Fonts **/
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&family=Raleway:wght@100;300;400&family=Roboto+Slab:wght@200;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;600;700;800&family=Raleway:wght@100;300;400&family=Roboto+Slab:wght@200;500&display=swap');
 
 /** General Settings **/
 
@@ -11,11 +11,12 @@
 }
 
 :root {
-    --primary-font: 'Raleway', sans-serif;
+    --primary-font: 'Poppins', sans-serif;
     --secondary-font: 'Roboto Slab', serif;
     --primary-color: #e51b23;
     --light-color: #efefef;
     --dark-color: #3c3c3c;
+    --general-transition: all .4s ease;
 }
 html {
     font-size: 10px;
@@ -82,9 +83,10 @@ ul {
 .main-title {
     font-family: var(--secondary-font);
     font-size: 8rem;
-    font-weight: 200;
+    font-weight: 600;
     letter-spacing: 2rem;
     padding-bottom: 2rem;
+    color: var(--light-color);
 
 }
 .main-slogan {
@@ -159,9 +161,31 @@ ul {
     letter-spacing: .2rem;
     color: var(--light-color);
     font-weight: 700;
-    transition: all .4s ease;
+    transition: var(--general-transition);
 }
 .nav-link:hover {
     color: var(--dark-color);
 }
+.nav-link::after {
+    content: '';
+    display: block;
+    height: .2rem;
+    width: 0;
+    opacity: 0;
+    background-color: var(--dark-color);
+    transition: var(--general-transition);
+}
+.nav-link:hover::after {
+    width: 100%;
+    opacity: 1;
+}
+
+
 /** Logo **/
+
+.logo {
+    width: 7rem;
+    height: 7rem;
+    display: flex;
+    align-items: center;
+}
