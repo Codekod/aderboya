@@ -164,3 +164,22 @@ ul {
 .nav-link:hover {
     color: var(--dark-color);
 }
+@media (max-width: 414px) { /* iPhone 14 Pro Max ekran genişliği */
+    .nav {
+        justify-content: space-between;
+    }
+    
+    .logo {
+        display: block;
+        margin-right: auto;
+    }
+
+    .nav-list {
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-item {
+        padding: 0 1rem; /* Daha fazla yer açmak için gerekirse bu değeri ayarlayabilirsiniz */
+    }
+}
