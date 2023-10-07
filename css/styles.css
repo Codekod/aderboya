@@ -62,6 +62,32 @@ ul {
     margin: 0 auto;
 }
 
+/** Custom Classes **/
+.sec-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    position: relative;
+}
+.vertical-title {
+    font-size: 2rem;
+    font-family: var(--primary-font);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    word-spacing: 1rem;
+    display: inline-block;
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 50%;
+    left: -5%;
+}
+.vertical-title-right {
+    color: var(--light-color);
+    left: 95%;
+    transform: rotate(90deg);
+    white-space: nowrap;
+}
 
 
 /** Hero Section **/
