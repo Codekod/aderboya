@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <title>Ader Boya</title>
     <!-- Custom CSS -->
+    <!-- FANCYBOX CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
     <link rel="stylesheet" href="css/styles.css">
+
     <!-- Font Awesome Kit-->
     <script src="https://kit.fontawesome.com/299926202d.js" crossorigin="anonymous"></script>
 </head>
@@ -13,9 +16,9 @@
     <section id="hero">
         <div class="container">
             <div class="hero-content">
-                <h1 class="main-title">ADER BOYA</h1>
-                <p class="main-slogan">Projelerinizi Gerçekleştirelim, Renginizi Keşfedin!</p>
-                <div class="arrows">
+                <h1 class="main-title ani-fade-up">ADER BOYA</h1>
+                <p class="main-slogan ani-delay ani-fade-up">Projelerinizi Gerçekleştirelim, Renginizi Keşfedin!</p>
+                <div class="arrows ani-delay2 ani-fade-up">
                     <a href="#">
                         <span></span>
                         <span></span>
@@ -29,30 +32,30 @@
 
     <!-- Header Section -->
     <header>
-        <nav class="nav">
+        <nav class="nav ani-fade-up">
             <div class="container navbar">
-                <a href="#" class="logo"><img src="./img/logo_transparent_background.png" alt="aderboya"></a>
+                <a href="#hero" class="logo"><img src="./img/logo_transparent_background.png" alt="aderboya"></a>
                 <ul class="nav-list">
                     <li class="nav-item">
-                        <a href="#" class="nav-link">ANA SAYFA</a>
+                        <a href="#hero" class="nav-link">ANA SAYFA</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">HAKKIMIZDA</a>
+                        <a href="#about" class="nav-link">HAKKIMIZDA</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">HİZMETLERİMİZ</a>
+                        <a href="#services" class="nav-link">HİZMETLERİMİZ</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">PORTFOLIO</a>
+                        <a href="#portfolio" class="nav-link">PORTFOLIO</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">ÜRÜNLERİMİZ</a>
+                        <a href="#team" class="nav-link">TAKIMIMIZ</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">TAKIMIMIZ</a>
+                        <a href="#blog" class="nav-link">BLOG</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">İLETİŞİM</a>
+                        <a href="#contact" class="nav-link">İLETİŞİM</a>
                     </li>
                 </ul>
                 <div class="navbar-toggler">
@@ -70,8 +73,8 @@
         <div class="container">
             <div class="about-content sec-grid">
                 <div class="about-info">
-                    <h2 class="vertical-title">HİKAYEMİZ</h2>
-                    <div class="about-detail">
+                    <h2 class="vertical-title ani-delay-2 ani-right">HİKAYEMİZ</h2>
+                    <div class="about-detail ani-delay ani-left">
                         <h2 class="horizontal-title">HİZMETLERİMİZ</h2>
                         <p>Milesi ürünleri ahşap için boya, renklendirici ve ıslatıcıları üretiminde uzman, Avrupa’nın en önemli şirketi olan ve sektörde dünyanın ilk şirketleri arasında yer alan, İtalya, Fransa, İspanya, Almanya, Yunanistan’da merkezleri bulunan ve uzman satıcılar aracılığıyla 70'in üzerinde ülkede mevcut IVM uluslararası Grup şirketlerinden Milesi spa tarafından 1947 yılında İtalya’da doğmuştur.
 
@@ -79,8 +82,8 @@
                         <button class="btn-general btn-light">DETAYLAR</button>
                     </div>
                 </div>
-                <div class="about-image">
-                    <img src="./img/image1.jpeg" alt="milesi">
+                <div class="about-image ani-fade-up">
+                    <img src="./img/ader/Progetto-senza-titolo.jpg" alt="milesi">
                 </div>
             </div>
         </div>
@@ -92,20 +95,23 @@
     <section id="services" class="pri-background">
         <div class="container">
             <div class="services-content sec-grid">
-               <div class="services images">
-                   <img src="" alt="">
+               <div class="services-image ani-fade-up">
+                   <img src="./img/ader/376814792_635037061948523_1549382954684182894_n.jpg" alt="milesi">
                </div>
                 <div class="services-info">
-                    <h2 class="vertical-title vertical-title-right">THE SKILLS</h2>
-                    <div class="services-detail">
+                    <h2 class="vertical-title vertical-title-right ani-delay-2 ani-left">MİLESİ</h2>
+                    <div class="services-detail ani-delay ani-right">
                         <div id="services-slider">
                             <div class="services-slide services-slide1">
-                                <h2 class="horizontal-title light-color">OUR SERVİCE 1</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit, rhoncus ac sodales id, porttitor vitae est.</p>
+                                <h2 class="horizontal-title light-color">FABRİKA</h2>
+                                <p>Milesi ürünleri, Kuzey İtalya'nın Parona kentinde bulunan,büyüklük ve tasarım mimarisi açısından bu sektörde benzersiz bir fabrika olan, 15 hektarın üzerinde bir alanı kapsayan ve 100'den fazla ülkeye
+                                    dağıtılan son teknolojiye sahip bir fabrikada üretiliyor.Parona fabrikası, sürdürülebilir kalkınmaya saygı göstererek birinci sınıf üretim standartlarını garanti edecek
+                                    şekilde tasarlanmış ve inşa edilmiştir.</p>
                             </div>
                             <div class="services-slide services-slide2">
-                                <h2 class="horizontal-title light-color">OUR SERVİCE 2</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit, rhoncus ac sodales id, porttitor vitae est.</p>
+                                <h2 class="horizontal-title light-color">ÜRETİM</h2>
+                                <p>Burada üretim havaya kirletici madde salmadan gerçekleşiyor; Hammaddelerin girişinden itibaren tüm süreçler kapalı bir döngüde gerçekleştirilir; Son paketleme aşamasında, ürünün kaplara doldurulması sürecinden gelen tüm hava, son teknolojiye sahip bir kriyojenik tesis tarafından toplanıp “temizlenir” ve hiçbir uçucu organik bileşik (VOC) olmadan atmosfere verilir. . Çalışanların endüstriyel cihaz ve ekipmanlarla temasını en aza indirmek için tesisler yüksek düzeyde
+                                    otomasyona tabi tutuluyor ve bu da çalışanların olası risklere ve kazalara maruz kalmasını önemli ölçüde azaltıyor.</p>
                             </div>
                         </div>
                         <div class="btn-arrows">
@@ -123,14 +129,14 @@
 
     <section id="portfolio">
         <div class="portfolio-items">
-            <a href="./img/portfolio-item-1.jpg" class="portfolio-item portfolio-item-1"><span>&#9741;</span></a>
-            <a href="./img/portfolio-item-2.jpg" class="portfolio-item portfolio-item-2"><span>&#9741;</span></a>
-            <a href="./img/portfolio-item-3.jpg" class="portfolio-item portfolio-item-3"><span>&#9741;</span></a>
-            <a href="./img/portfolio-item-4.jpg" class="portfolio-item portfolio-item-4"><span>&#9741;</span></a>
-            <a href="./img/portfolio-item-5.jpg" class="portfolio-item portfolio-item-5"><span>&#9741;</span></a>
-            <a href="./img/portfolio-item-6.jpg" class="portfolio-item portfolio-item-6"><span>&#9741;</span></a>
-            <a href="./img/portfolio-item-7.jpg" class="portfolio-item portfolio-item-7"><span>&#9741;</span></a>
-            <a href="./img/portfolio-item-8.jpg" class="portfolio-item portfolio-item-8"><span>&#9741;</span></a>
+            <a href="./img/portfolio-item-1.jpg" data-fancybox="gallery" class="portfolio-item portfolio-item-1 ani-fade-up"><span>&#9741;</span></a>
+            <a href="./img/portfolio-item-2.jpg" data-fancybox="gallery" class="portfolio-item portfolio-item-2 ani-fade-up"><span>&#9741;</span></a>
+            <a href="./img/portfolio-item-3.jpg" data-fancybox="gallery" class="portfolio-item portfolio-item-3 ani-fade-up"><span>&#9741;</span></a>
+            <a href="./img/portfolio-item-4.jpg" data-fancybox="gallery" class="portfolio-item portfolio-item-4 ani-fade-up"><span>&#9741;</span></a>
+            <a href="./img/portfolio-item-5.jpg" data-fancybox="gallery" class="portfolio-item portfolio-item-5 ani-fade-up"><span>&#9741;</span></a>
+            <a href="./img/portfolio-item-6.jpg" data-fancybox="gallery" class="portfolio-item portfolio-item-6 ani-fade-up"><span>&#9741;</span></a>
+            <a href="./img/portfolio-item-7.jpg" data-fancybox="gallery" class="portfolio-item portfolio-item-7 ani-fade-up"><span>&#9741;</span></a>
+            <a href="./img/portfolio-item-8.jpg" data-fancybox="gallery" class="portfolio-item portfolio-item-8 ani-fade-up"><span>&#9741;</span></a>
         </div>
     </section>
     <!-- Portfolio  Section End-->
@@ -141,11 +147,11 @@
         <div class="container">
             <div class="team-content sec-grid">
                 <div class="team-info">
-                    <h2 class="vertical-title ani-delay-2 ani-right">THE TEAM</h2>
+                    <h2 class="vertical-title ani-delay-2 ani-right">TAKIMIMIZ</h2>
                     <div class="team-detail ani-delay ani-left">
-                        <h2 class="horizontal-title">OUR PERSONAL</h2>
+                        <h2 class="horizontal-title">ÇALIŞANLARIMIZ</h2>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus, dignissimos architecto. Voluptates soluta adipisci enim dolor quod repellat cupiditate possimus, eaque, rerum suscipit facere natus maxime! Adipisci commodi voluptates a!</p>
-                        <button class="btn-general  btn-light">DETAIL</button>
+                        <button class="btn-general  btn-light">DETAYLAR</button>
                     </div>
                 </div>
                 <div class="team-items ani-fade-up">
@@ -153,12 +159,12 @@
                         <img src="./img/team-item-1.jpg">
                         <div class="team-item-overlay">
                             <div class="team-item-info">
-                                <h5>Jane Doe</h5>
-                                <p>Designer</p>
+                                <h5>Altuğ DÜMROL</h5>
+                                <p>Şirket Müdürü</p>
                                 <ul class="team-social-list">
                                     <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -167,12 +173,12 @@
                         <img src="./img/team-item-2.jpg">
                         <div class="team-item-overlay">
                             <div class="team-item-info">
-                                <h5>John Doe</h5>
-                                <p>Developer</p>
+                                <h5>Altuğ DÜMROL</h5>
+                                <p>Şirket Müdürü</p>
                                 <ul class="team-social-list">
                                     <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -198,7 +204,7 @@
                         <div class="post-meta">
                             <img src="./img/team-item-1.jpg">
                             <div class="divider">&#124;</div>
-                            <p class="author">Jane Doe</p>
+                            <p class="author">Altuğ DÜMROL</p>
                             <div class="divider">&#124;</div>
                             <p class="date">March 22, 2020</p>
                         </div>
@@ -210,7 +216,7 @@
                         <div class="post-meta">
                             <img src="./img/team-item-2.jpg">
                             <div class="divider">&#124;</div>
-                            <p class="author">Axel Witsel</p>
+                            <p class="author">Altuğ DÜMROL</p>
                             <div class="divider">&#124;</div>
                             <p class="date">March 03, 2020</p>
                         </div>
@@ -235,7 +241,7 @@
         <div class="container">
             <div class="contact-content ani-bottom">
                 <h2>Bize Ulaşın</h2>
-                <form>
+                <form class="ani-bottom">
                     <input type="text" class="name" placeholder="Adınız">
                     <input type="email" class="email" placeholder="Mail Adresiniz">
                     <textarea class="message" placeholder="Mesajınız"></textarea>
@@ -253,16 +259,16 @@
         <div class="container">
             <div class="footer-content">
                 <div class="copy-right">
-                    <p>NO &copy; ADER BOYA</p>
+                    <p>Copyright@ADER BOYA</p>
                 </div>
                 <div class="social-media">
-                    <h4>Follow Us</h4>
+                    <h4>Takip edin</h4>
                     <ul class="social-list">
                         <li>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
                         </li>
                         <li>
-                            <a href="#"><i class="fab fa-github-alt"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
                         </li>
                         <li>
                             <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -280,6 +286,19 @@
     </footer>
 
     <!-- END FOOTER Section -->
+    <!-- JQUERY -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+
+    <!-- FANCYBOX JS -->
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+    <!-- SCROLL REVEAL JS-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- CUSTOM JS-->
+    <script src="./js/script.js"></script>
+
+
 
 
 
