@@ -486,4 +486,128 @@ ul.team-social-list li:nth-child(3) a:hover {
 }
 /** Team Section End **/
 
+/** Blog Section Start **/
+
+
+.latest-posts {
+    display: flex;
+    flex-direction: column;
+}
+.blog-detail {
+    margin-right: 4rem;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.blog-detail p {
+    text-align: justify;
+    margin-left: 2rem;
+}
+.blog-post {
+    background-color: var(--light-color);
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 0  1rem 0 rgba(0, 0, 0, 0.7);
+    border-radius: .5rem;
+}
+
+.blog-post h4 {
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    padding-bottom: 1.4rem;
+    color: var(--primary-color);
+}
+.blog-post p {
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+.blog-post a {
+    text-transform: uppercase;
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    font-weight: 700;
+    display: block;
+    margin: 1rem 0;
+}
+.post-meta {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-top: .1rem solid var(--primary-color);
+    padding-top: 1rem;
+}
+.post-meta p {
+    margin-left: 1rem;
+    text-transform: uppercase;
+}
+.divider {
+    color: var(--dark-color);
+    margin-left: 1rem;
+    font-weight: bold;
+}
+.post-meta p.author {
+    color: var(--primary-color);
+    font-family: var(--secondary-font);
+    font-weight: bold;
+    letter-spacing: .1rem;
+}
+.post-meta img {
+    height: 4rem;
+    width: auto;
+    border-radius: 50%;
+}
+
+/** Blog Section End **/
+
+/** Contact Section Start **/
+
+section#contact {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(0deg, rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)), url('../img/contact_bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.contact-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-content h2 {
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 4rem;
+}
+.name, .email, .message {
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: .1rem solid var(--primary-color);
+    min-width: 100%;
+    max-width: 100%;
+    padding: 2rem .5rem;
+    color: var(--light-color);
+    margin-bottom: 4rem;
+}
+::placeholder {
+    color: var(--primary-color);
+}
+
+/** Contact Section End **/
+
+/** Footer Section Start **/
+
+
+
+
+/** Footer Section End **/
+
+
+
+
+
 
