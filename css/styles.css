@@ -779,6 +779,9 @@ ul.social-list li:nth-child(4) a:hover {
 }
 
 @media only screen and (max-width: 768px) {
+    #hero {
+        background-size: contain;
+    }
     .main-title {
         color: red;
         font-size: 6rem;
