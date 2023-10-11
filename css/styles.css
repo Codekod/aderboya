@@ -780,7 +780,7 @@ ul.social-list li:nth-child(4) a:hover {
 
 @media only screen and (max-width: 768px) {
     #hero {
-        background-size: contain;
+        background: linear-gradient(0deg, rgba(0,0,0, 0.2), rgba(0,0,0, 0.2)), url(/img/ader/vertical-back.jpeg);
     }
     .main-title {
         color: red;
