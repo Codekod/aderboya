@@ -783,6 +783,7 @@ ul.social-list li:nth-child(4) a:hover {
         background: linear-gradient(0deg, rgba(0,0,0, 0.2), rgba(0,0,0, 0.2)), url(/img/ader/vertical-back.jpeg);
         background-position: center;
         background-size: 50%;
+        background-repeat: no-repeat;
     }
     .main-title {
         color: red;
