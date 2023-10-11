@@ -694,6 +694,29 @@ ul.social-list li:nth-child(4) a:hover {
 }
 /** Footer Section End **/
 
+/** Media Queries **/
+
+@media only screen and (max-width: 992px) {
+    .navbar-toggler {
+        display: block;
+    }
+    .nav-list {
+        display: block;
+        position: absolute;
+        top: 8rem;
+        left: 0;
+        background-color: var(--primary-color);
+        width: 50%;
+        height: 100vh;
+        opacity: .9;
+        transition: var(--general-transition);
+        transform: translateX(-100%);
+    }
+}
+.nav-active {
+    transform: translateX(0);
+}
+
 
 
 

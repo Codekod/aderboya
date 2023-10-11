@@ -1,3 +1,23 @@
+/* Responsive Nav Menu */
+const navMenu = () => {
+    const navbarToggler = document.querySelector('.navbar-toggler');
+    const navList = document.querySelector('.nav-list');
+
+    navbarToggler.addEventListener('click', () => {
+        navList.classList.toggle('nav-active');
+        navbarToggler.classList.toggle('toggle');
+    })
+
+};
+
+navMenu();
+
+
+
+
+
+
+/* section a göre logo değiştirme */
 const logo = document.querySelector(".logo img");
 
 window.addEventListener("scroll", () => {
@@ -72,3 +92,5 @@ ScrollReveal().reveal('.ani-delay', {
 ScrollReveal().reveal('.ani-delay-2', {
     delay: 1000
 });
+
+
