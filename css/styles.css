@@ -136,7 +136,7 @@ ul {
 
 #hero {
     width: 100%;
-    background: linear-gradient(0deg, rgba(0,0,0, 0.2), rgba(0,0,0, 0.2)), url(/img/man-bg1.jpg);
+    background: linear-gradient(0deg, rgba(0,0,0, 0.2), rgba(0,0,0, 0.2)), url(/img/ader/heroback.jpg);
     background-size: cover;
     background-attachment: fixed;
     position: relative;
