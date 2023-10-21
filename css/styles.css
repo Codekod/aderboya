@@ -777,15 +777,112 @@ ul.social-list li:nth-child(4) a:hover {
     }
 
 }
+/** Tablet **/
 
-
-
-@media only screen and (max-width: 992px) and (min-width: 380px) {
+@media only screen and (max-width: 991px) and (min-width: 579px) {
 
     #hero {
 
-        background: linear-gradient(0deg, rgba(0,0,0, 0.2), rgba(0,0,0, 0.2)), url(/img/man-bg1.jpg);
+        background: linear-gradient(0deg, rgba(0,0,0, 0.2), rgba(0,0,0, 0.2)), url(/img/ader/heroback.jpg);
         background-repeat: no-repeat;
+        background-size: cover;
+
+
+        background-attachment: fixed;
+    }
+
+    .main-title {
+        font-family: var(--primary-font);
+        color: red;
+        font-size: 2.5rem;
+        font-weight: bold;
+        text-shadow: 1px 6px 2px rgba(21,19,19,0.58);
+    }
+
+    .main-slogan {
+        font-size: 1.2rem;
+        letter-spacing: 1.2rem;
+        text-shadow: 1px 6px 2px rgba(21,19,19,0.58);
+    }
+
+    .sec-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .about-image {
+        padding-left: var(--pad-left);
+    }
+
+    .services-image {
+        padding-right: var(--pad-right);
+    }
+
+    .portfolio-items {
+
+        grid-template-areas: 'item-1 item-1 item-3 item-3'
+                             'item-1 item-1 item-2 item-2'
+                             'item-7 item-7 item-4 item-4'
+                             'item-6 item-6 item-4 item-4'
+                             'item-5 item-5 item-8 item-8';
+    }
+
+    .portfolio-item-4 {
+        min-height: 50rem;
+    }
+
+    .portfolio-item-6 {
+        min-height: 25rem;
+    }
+
+    .team-items {
+        padding-left: var(--pad-left);
+    }
+
+    .latest-posts {
+        padding-right: var(--pad-right);
+    }
+
+    .contact-content {
+        padding-left: var(--pad-left);
+        padding-right: var(--pad-right);
+    }
+
+    .contact-content h2 {
+        font-size: 3.5rem;
+    }
+
+    .footer-content {
+        grid-template-columns: 1fr;
+    }
+
+    .copy-right, .back-top, .social-media {
+        justify-self: center;
+        margin: .5rem 0;
+    }
+
+    .social-media h4 {
+        display: none;
+    }
+
+    .back-top {
+        padding-right: 0;
+    }
+
+
+
+}
+
+/**   Mobile telephone            **/
+@media only screen and (max-width: 580px) and (min-width: 380px) {
+
+    #hero {
+
+        background: linear-gradient(0deg, rgba(0,0,0, 0.2), rgba(0,0,0, 0.2)), url(/img/ader/mobileback.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+
+        background-attachment: fixed;
     }
 
     .main-title {
