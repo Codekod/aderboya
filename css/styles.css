@@ -868,8 +868,6 @@ ul.social-list li:nth-child(4) a:hover {
         padding-right: 0;
     }
 
-
-
 }
 
 /**   Mobile telephone      **/
@@ -877,7 +875,7 @@ ul.social-list li:nth-child(4) a:hover {
 
     #hero {
 
-        background: linear-gradient(0deg, rgba(0,0,0, 0.2), rgba(0,0,0, 0.2)), url(/img/ader/mobileback.jpeg);
+        background: linear-gradient(0deg, rgba(0,0,0, 0.2), rgba(0,0,0, 0.2)), url(/img/ader/mobileback2.jpeg);
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
