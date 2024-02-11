@@ -15,6 +15,7 @@
     --secondary-font: 'Roboto Slab', serif;
     --primary-color: #e51b23;
     --light-color: #efefef;
+    --lights-color: #EEF07C ;
     --dark-color: #3c3c3c;
     --general-transition: all .4s ease;
     --pad-right: 4rem;
@@ -207,7 +208,7 @@ ul {
 /** Navigation **/
 
 .nav {
-    background-color: rgba(229, 27, 35, .4);
+    background-color: rgba(105, 31, 17, .2);
     position: fixed;
     top: 0;
     width: 100%;
@@ -231,6 +232,7 @@ ul {
 }
 .nav-link {
     font-size: 1.5rem;
+    text-shadow: 4px 3px 2px #000;
     letter-spacing: .2rem;
     color: var(--light-color);
     font-weight: 700;
@@ -713,7 +715,7 @@ ul.social-list li:nth-child(4) a:hover {
         background-color: var(--primary-color);
         width: 50%;
         height: 100vh;
-        opacity: .5;
+        opacity: .9;
         transition: var(--general-transition);
         transform: translateX(-100%);
 
