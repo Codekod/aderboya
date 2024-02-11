@@ -713,7 +713,7 @@ ul.social-list li:nth-child(4) a:hover {
         background-color: var(--primary-color);
         width: 50%;
         height: 100vh;
-        opacity: .9;
+        opacity: .5;
         transition: var(--general-transition);
         transform: translateX(-100%);
 
